@@ -41,7 +41,7 @@ class ListContacts extends React.Component {
     return (
       <Container>
         <Header as="h2" textAlign="center" inverted>List Contacts</Header>
-        <Card.Group itemsPerRow={3}>
+        <Card.Group>
           {this.contacts.map((contact) => <Contact key={contact.lastName} contact={contact} />)}
         </Card.Group>
       </Container>
