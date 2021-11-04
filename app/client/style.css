@@ -1,5 +1,6 @@
 .landing-div {
-  background: url("/images/mocking_spongebob.jpg") center no-repeat;
+  background: url("/images/terminal.jpg") center no-repeat fixed;
+  background-size: 100%;
 }
 
 footer {
