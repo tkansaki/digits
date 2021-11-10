@@ -1,8 +1,6 @@
 <img src="doc/landing.png">
 
-![](https://raw.githubusercontent.com/ics-software-engineering/meteor-application-template-react/master/doc/landing-page.png)
-
-Meteor-application-template-react is a sample Meteor 2.4 application that illustrates:
+Digits is a sample Meteor 2.4 application that illustrates:
 
   * A standard directory layout using 'imports/' as recommended in the [Meteor Guide](https://guide.meteor.com/structure.html)
   * [Semantic UI React](https://react.semantic-ui.com/) for user interface.
@@ -13,12 +11,12 @@ Meteor-application-template-react is a sample Meteor 2.4 application that illust
   * Alerts regarding success or failure of DB updates using [Sweet Alert](https://sweetalert.js.org/).
   * Quality assurance using [ESLint](http://eslint.org) with packages to partially enforce the [Meteor Coding Standards](https://guide.meteor.com/code-style.html) and the [AirBnB Javascript Style Guide](https://github.com/airbnb/javascript).
 
-The goal of this template is to help you get quickly started doing Meteor development by providing a reasonable directory structure for development and deployment, a set of common extensions to the core framework, and boilerplate code to implement basic page display, navigation, forms, roles, and collection manipulation.
+The goal of this Digits is to help you get quickly started doing Meteor development by providing a reasonable directory structure for development and deployment, a set of common extensions to the core framework, and boilerplate code to implement basic page display, navigation, forms, roles, and collection manipulation.
 
-To keep this codebase simple and small, some important capabilities are intentionally excluded from this template:
+To keep this codebase simple and small, some important capabilities are intentionally excluded from this Digits:
 
   * Testing.
-  * Security (meteor-application-template-react enables the insecure packages)
+  * Security (meteor-application-Digits-react enables the insecure packages)
 
 Examples of the these capabilities will be provided elsewhere.
 
@@ -26,7 +24,7 @@ Examples of the these capabilities will be provided elsewhere.
 
 First, [install Meteor](https://www.meteor.com/install).
 
-Second, go to [https://github.com/ics-software-engineering/meteor-application-template-react](https://github.com/ics-software-engineering/meteor-application-template-react), and click the "Use this template" button. Complete the dialog box to create a new repository that you own that is initialized with this template's files.
+Second, go to [https://github.com/ics-software-engineering/meteor-application-Digits-react](https://github.com/ics-software-engineering/meteor-application-Digits-react), and click the "Use this Digits" button. Complete the dialog box to create a new repository that you own that is initialized with this Digits's files.
 
 Third, go to your newly created repository, and click the "Clone or download" button to download your new GitHub repo to your local file system.  Using [GitHub Desktop](https://desktop.github.com/) is a great choice if you use MacOS or Windows.
 
@@ -38,7 +36,7 @@ $ meteor npm install
 
 ## Running the system
 
-Once the libraries are installed, you can run the application by invoking the "start" script in the [package.json file](https://github.com/ics-software-engineering/meteor-application-template-react/blob/master/app/package.json):
+Once the libraries are installed, you can run the application by invoking the "start" script in the [package.json file](https://github.com/ics-software-engineering/meteor-application-Digits-react/blob/master/app/package.json):
 
 ```
 $ meteor npm run start
@@ -49,10 +47,10 @@ The first time you run the app, it will create some default users and data. Here
 ```
 meteor npm run start
 
-> meteor-application-template-react@ start /Users/philipjohnson/github/ics-software-engineering/meteor-application-template-react/app
+> meteor-application-Digits-react@ start /Users/philipjohnson/github/ics-software-engineering/meteor-application-Digits-react/app
 > meteor --no-release-check --settings ../config/settings.development.json
 
-[[[[[ ~/github/ics-software-engineering/meteor-application-template-react/app ]]]]]
+[[[[[ ~/github/ics-software-engineering/meteor-application-Digits-react/app ]]]]]
 
 => Started proxy.
 => Started MongoDB.
@@ -103,7 +101,7 @@ While irritating, this message appears to be harmless and [possibly related to a
 
 ### Viewing the running app
 
-If all goes well, the template application will appear at [http://localhost:3000](http://localhost:3000).  You can login using the credentials in [settings.development.json](https://github.com/ics-software-engineering/meteor-application-template-react/blob/master/config/settings.development.json), or else register a new account.
+If all goes well, the Digits application will appear at [http://localhost:3000](http://localhost:3000).  You can login using the credentials in [settings.development.json](https://github.com/ics-software-engineering/meteor-application-Digits-react/blob/master/config/settings.development.json), or else register a new account.
 
 ### ESLint
 
@@ -115,7 +113,7 @@ meteor npm run lint
 
 ## Walkthrough
 
-The following sections describe the major features of this template.
+The following sections describe the major features of this Digits.
 
 ### Directory structure
 
@@ -170,7 +168,7 @@ By default, each user only sees the Stuff that they have created.  However, the 
 
 When you retrieve the app at http://localhost:3000, this is what should be displayed:
 
-![](https://raw.githubusercontent.com/ics-software-engineering/meteor-application-template-react/master/doc/landing-page.png)
+![](https://raw.githubusercontent.com/ics-software-engineering/meteor-application-Digits-react/master/doc/landing-page.png)
 
 The next step is to use the Login menu to either Login to an existing account or register a new account.
 
@@ -178,20 +176,20 @@ The next step is to use the Login menu to either Login to an existing account or
 
 Clicking on the Login link, then on the Sign In menu item displays this page:
 
-![](https://raw.githubusercontent.com/ics-software-engineering/meteor-application-template-react/master/doc/signin-page.png)
+![](https://raw.githubusercontent.com/ics-software-engineering/meteor-application-Digits-react/master/doc/signin-page.png)
 
 #### Register page
 
 Alternatively, clicking on the Login link, then on the Sign Up menu item displays this page:
 
-![](https://raw.githubusercontent.com/ics-software-engineering/meteor-application-template-react/master/doc/register-page.png)
+![](https://raw.githubusercontent.com/ics-software-engineering/meteor-application-Digits-react/master/doc/register-page.png)
 
 
 #### Landing (after Login) page, non-Admin user
 
 Once you log in (either to an existing account or by creating a new one), the navbar changes as follows:
 
-![](https://raw.githubusercontent.com/ics-software-engineering/meteor-application-template-react/master/doc/landing-after-login-page.png)
+![](https://raw.githubusercontent.com/ics-software-engineering/meteor-application-Digits-react/master/doc/landing-after-login-page.png)
 
 You can now add new Stuff documents, and list the Stuff you have created. Note you cannot see any Stuff created by other users.
 
@@ -199,13 +197,13 @@ You can now add new Stuff documents, and list the Stuff you have created. Note y
 
 After logging in, here is the page that allows you to add new Stuff:
 
-![](https://raw.githubusercontent.com/ics-software-engineering/meteor-application-template-react/master/doc/add-stuff-page.png)
+![](https://raw.githubusercontent.com/ics-software-engineering/meteor-application-Digits-react/master/doc/add-stuff-page.png)
 
 #### List Stuff page
 
 After logging in, here is the page that allows you to list all the Stuff you have created:
 
-![](https://raw.githubusercontent.com/ics-software-engineering/meteor-application-template-react/master/doc/list-stuff-page.png)
+![](https://raw.githubusercontent.com/ics-software-engineering/meteor-application-Digits-react/master/doc/list-stuff-page.png)
 
 You click the "Edit" link to go to the Edit Stuff page, shown next.
 
@@ -213,19 +211,19 @@ You click the "Edit" link to go to the Edit Stuff page, shown next.
 
 After clicking on the "Edit" link associated with an item, this page displays that allows you to change and save it:
 
-![](https://raw.githubusercontent.com/ics-software-engineering/meteor-application-template-react/master/doc/edit-stuff-page.png)
+![](https://raw.githubusercontent.com/ics-software-engineering/meteor-application-Digits-react/master/doc/edit-stuff-page.png)
 
 #### Landing (after Login), Admin user
 
 You can define an "admin" user in the settings.json file. This user, after logging in, gets a special entry in the navbar:
 
-![](https://raw.githubusercontent.com/ics-software-engineering/meteor-application-template-react/master/doc/admin-landing-page.png)
+![](https://raw.githubusercontent.com/ics-software-engineering/meteor-application-Digits-react/master/doc/admin-landing-page.png)
 
 #### Admin page (list all users stuff)
 
 To provide a simple example of a "super power" for Admin users, the Admin page lists all of the Stuff by all of the users:
 
-![](https://raw.githubusercontent.com/ics-software-engineering/meteor-application-template-react/master/doc/admin-list-stuff-page.png)
+![](https://raw.githubusercontent.com/ics-software-engineering/meteor-application-Digits-react/master/doc/admin-list-stuff-page.png)
 
 Note that non-admin users cannot get to this page, even if they type in the URL by hand.
 
@@ -233,9 +231,9 @@ Note that non-admin users cannot get to this page, even if they type in the URL 
 
 The application implements a single Collection called "Stuffs". Each Stuffs document has the following fields: name, quantity, condition, and username.
 
-The Stuffs collection is defined in [imports/api/stuff/stuff.js](https://github.com/ics-software-engineering/meteor-application-template-react/blob/master/app/imports/api/stuff/stuff.js).
+The Stuffs collection is defined in [imports/api/stuff/stuff.js](https://github.com/ics-software-engineering/meteor-application-Digits-react/blob/master/app/imports/api/stuff/stuff.js).
 
-The Stuffs collection is initialized in [imports/startup/server/Mongo.js](https://github.com/ics-software-engineering/meteor-application-template-react/blob/master/app/imports/startup/server/Mongo.js).
+The Stuffs collection is initialized in [imports/startup/server/Mongo.js](https://github.com/ics-software-engineering/meteor-application-Digits-react/blob/master/app/imports/startup/server/Mongo.js).
 
 ### CSS
 
@@ -245,14 +243,14 @@ The application uses the [React implementation of Semantic UI](http://react.sema
 
 For display and navigation among its four pages, the application uses [React Router](https://reacttraining.com/react-router/).
 
-Routing is defined in [imports/ui/layouts/App.jsx](https://github.com/ics-software-engineering/meteor-application-template-react/blob/master/app/imports/ui/layouts/App.jsx).
+Routing is defined in [imports/ui/layouts/App.jsx](https://github.com/ics-software-engineering/meteor-application-Digits-react/blob/master/app/imports/ui/layouts/App.jsx).
 
 
 ### Authentication
 
 For authentication, the application uses the Meteor accounts package.
 
-When the application is run for the first time, a settings file (such as [config/settings.development.json](https://github.com/ics-software-engineering/meteor-application-template-react/blob/master/config/settings.development.json)) should be passed to Meteor. That will lead to a default account being created through the code in [imports/startup/server/accounts.js](https://github.com/ics-software-engineering/meteor-application-template-react/blob/master/app/imports/startup/server/accounts.js).
+When the application is run for the first time, a settings file (such as [config/settings.development.json](https://github.com/ics-software-engineering/meteor-application-Digits-react/blob/master/config/settings.development.json)) should be passed to Meteor. That will lead to a default account being created through the code in [imports/startup/server/accounts.js](https://github.com/ics-software-engineering/meteor-application-Digits-react/blob/master/app/imports/startup/server/accounts.js).
 
 The application allows users to register and create new accounts at any time.
 
@@ -262,20 +260,20 @@ Only logged in users can manipulate Stuff documents (but any registered user can
 
 ### Configuration
 
-The [config](https://github.com/ics-software-engineering/meteor-application-template-react/tree/master/config) directory is intended to hold settings files.  The repository contains one file: [config/settings.development.json](https://github.com/ics-software-engineering/meteor-application-template-react/blob/master/config/settings.development.json).
+The [config](https://github.com/ics-software-engineering/meteor-application-Digits-react/tree/master/config) directory is intended to hold settings files.  The repository contains one file: [config/settings.development.json](https://github.com/ics-software-engineering/meteor-application-Digits-react/blob/master/config/settings.development.json).
 
-The [.gitignore](https://github.com/ics-software-engineering/meteor-application-template-react/blob/master/.gitignore) file prevents a file named settings.production.json from being committed to the repository. So, if you are deploying the application, you can put settings in a file named settings.production.json and it will not be committed.
+The [.gitignore](https://github.com/ics-software-engineering/meteor-application-Digits-react/blob/master/.gitignore) file prevents a file named settings.production.json from being committed to the repository. So, if you are deploying the application, you can put settings in a file named settings.production.json and it will not be committed.
 
 ### Quality Assurance
 
 #### ESLint
 
-The application includes a [.eslintrc](https://github.com/ics-software-engineering/meteor-application-template-react/blob/master/app/.eslintrc) file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
+The application includes a [.eslintrc](https://github.com/ics-software-engineering/meteor-application-Digits-react/blob/master/app/.eslintrc) file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
 
 ```
-[~/meteor-application-template-react/app]-> meteor npm run lint
+[~/meteor-application-Digits-react/app]-> meteor npm run lint
 
-> meteor-application-template-react@ lint /Users/philipjohnson/meteor-application-template-react/app
+> meteor-application-Digits-react@ lint /Users/philipjohnson/meteor-application-Digits-react/app
 > eslint --quiet ./imports
 ```
 
